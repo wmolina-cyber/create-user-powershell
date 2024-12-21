@@ -15,13 +15,23 @@ In this part of the lab, I configured **Remote Desktop** access for non-administ
 - Enabled access for **Domain Users** to use Remote Desktop.  
 - Verified that standard users could now log into **Client-1** via Remote Desktop.  
 
+**Screenshot Placeholder: Remote Desktop Settings Screen**
+
 #### 2. Bulk User Creation and Verification  
 - Logged into **DC-1** as `mydomain.com\jane_admin`.  
 - Opened **PowerShell ISE** as an administrator.  
 - Created a new script file and pasted the provided bulk user creation script.  
 - Executed the script and observed the automatic creation of user accounts.  
+
+**Screenshot Placeholder: PowerShell Script and Execution**
+
 - Verified the accounts in the `_EMPLOYEES` Organizational Unit (OU) within **Active Directory Users and Computers (ADUC)**.  
+
+**Screenshot Placeholder: ADUC Showing Bulk-Added Accounts**
+
 - Selected one of the new user accounts and logged into **Client-1** successfully.  
+
+**Screenshot Placeholder: Login Confirmation on Client-1**
 
 ---
 
